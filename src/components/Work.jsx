@@ -45,7 +45,7 @@ function Work() {
     {
       id: 6,
       src: project6,
-      demoSrc: "https://amank0259.vercel.app",
+      demoSrc: "https://amit-potfolio.netlify.app",
       codeSrc: "https://github.com/amank0259/amank0259-Aman-kumar-Portfolio-Website",
     },
 
