@@ -4,7 +4,6 @@ import project1 from "../assets/projects/ShopKaro.png";
 import project2 from "../assets/projects/liveChat.png";
 import project3 from "../assets/projects/ResumeBuilder.png";
 import project4 from "../assets/projects/PasswordGenerator.png";
-import project5 from "../assets/projects/CurrencyConverter.png";
 import project6 from "../assets/projects/Potfolio.png";
 import project7 from "../assets/projects/Netflix.jpeg";
 
@@ -15,8 +14,8 @@ function Work() {
     {
       id: 1,
       src: project1,
-      demoSrc: "https://dice-roll-game-alpha.vercel.app/",
-      codeSrc: "https://github.com/amank0259/diceRollGame",
+      demoSrc: "https://e-commerce-shopkaro.netlify.app",
+      codeSrc: "https://github.com/sahuami/E-commerce-website-SHOPkaro-/tree/newbranch",
     },
     {
       id: 2,
@@ -27,32 +26,27 @@ function Work() {
     {
       id: 3,
       src: project3,
-      demoSrc: "https://amank0259.github.io/Random-joke-Generator/",
-      codeSrc: "https://github.com/amank0259/Random-joke-Generator",
+      demoSrc: "https://my-resume-builder-website.netlify.app",
+      codeSrc: "https://github.com/sahuami/Resume-Builder-using-HTM--CSS--vanilla-javascript",
     },
     {
       id: 4,
       src: project4,
-      demoSrc: "https://amank0259.github.io/Product-Landing-Page/",
-      codeSrc: "https://github.com/amank0259/Product-Landing-Page",
+      demoSrc: "https://amit-password-generator.netlify.app",
+      codeSrc: "https://github.com/sahuami/passwordGenerator/tree/new-branch",
     },
+    
     {
       id: 5,
-      src: project5,
-      demoSrc: "https://amank0259.github.io/gsap-animated-website/",
-      codeSrc: "https://www.github.com/gsap-animated-website/",
-    },
-    {
-      id: 6,
       src: project6,
       demoSrc: "https://amit-potfolio.netlify.app",
-      codeSrc: "https://github.com/amank0259/amank0259-Aman-kumar-Portfolio-Website",
+      codeSrc: "https://github.com/sahuami/MYpotfolio_using_REACTjs-tailwindcss",
     },
 
     {
-      id: 7,
+      id: 6,
       src: project7,
-      demoSrc: "https://amank0259.vercel.app",
+      demoSrc: "https://amank0259.github.io/Netflix-Clone/",
       codeSrc: "https://github.com/amank0259/amank0259-Aman-kumar-Portfolio-Website",
     }
   ];
@@ -80,10 +74,10 @@ function Work() {
                 <a href={demoSrc}><img src={src} alt="" className='rounded-md duration-200 cursor-pointer hover:scale-105' /></a>
                 <div className='flex items-center justify-center'>
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-slate-900 rounded-xl text-white border-[1px]'>
-                    <a href={demoSrc}>Demo</a>
+                    <a href={demoSrc} target="blank">Demo</a>
                   </button>
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-500 rounded-xl border-[1px]'>
-                    <a href={codeSrc}>Code</a>
+                    <a href={codeSrc} target="blank" >Code</a>
                   </button>
                 </div>
 
