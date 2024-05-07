@@ -16,72 +16,74 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 function Skills() {
   const tech = [
+   
     {
       id: 1,
-      src: java,
-      title: 'java',
-      style: 'shadow-blue-400'
-    },
-    {
-      id: 2,
       src: html,
       title: 'HTML',
       style: 'shadow-orange-500'
     },
     {
-      id: 3,
+      id: 2,
       src: css,
       title: 'CSS',
       style: 'shadow-blue-400'
     },
     {
-      id: 4,
+      id: 3,
       src: js,
       title: 'JavaScript',
       style: 'shadow-yellow-400'
     },
     {
-      id: 5,
+      id: 4,
       src: react,
       title: 'React',
       style: 'shadow-blue-400'
     },
     {
-      id: 6,
+      id: 5,
       src: git,
       title: 'Git',
       style: 'shadow-orange-500'
     },
     {
-      id: 7,
+      id: 6,
       src: github,
       title: 'Github',
       style: 'shadow-black'
     },
     {
-      id: 8,
+      id: 7,
       src: tailwind,
       title: 'Tailwind CSS',
       style: 'shadow-cyan-500'
     },
     {
+      id: 8,
+      src: firebase,
+      title: 'Firebase',
+      style: 'shadow-yellow-500'
+    },
+    {
       id: 9,
+      src: java,
+      title: 'java',
+      style: 'shadow-blue-400'
+    },
+    {
+      id: 10,
       src: dsa,
       title: 'DSA',
       style: 'shadow-cyan-500'
     },
     {
-      id: 10,
+      id: 11,
       src: oop,
       title: 'OPPs Concept',
       style: 'shadow-white'
     },
-    {
-      id: 11,
-      src: firebase,
-      title: 'Firebase',
-      style: 'shadow-yellow-500'
-    },
+    
   ]
 
   return (
@@ -100,7 +102,7 @@ function Skills() {
             {tech.map(({ id, src, style, title }) => (
               <div key={id} className={`box shadow-md hover:scale-105 duration-500  h-[120%] justify-center flex flex-col bg-gray-800 bg-opacity-90 py-2 rounded-lg z-10 ${style}`}>
                 <img className='h-20 w-20 mx-auto' src={src} alt="" />
-                <p>{title}</p>
+                <p className="text-white">{title}</p>
               </div>
             ))}
           </div>

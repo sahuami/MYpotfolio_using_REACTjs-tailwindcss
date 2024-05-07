@@ -39,7 +39,10 @@ const SocialLink = () => {
                 </>
             ),
             href: "/src/assets/AmitResume.pdf",
-            style: 'bg-black '
+            style: 'bg-black ',
+    
+            
+
         },
         {
             id: 5,
