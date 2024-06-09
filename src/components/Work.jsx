@@ -14,15 +14,10 @@ function Work() {
     {
       id: 1,
       src: project1,
-      demoSrc: "https://e-commerce-shopkaro.netlify.app",
-      codeSrc: "https://github.com/sahuami/E-commerce-website-SHOPkaro-/tree/newbranch",
+      demoSrc: "https://e-commerce-website-using-react-firebase-razorpay-bkmk.vercel.app/",
+      codeSrc: "https://github.com/sahuami/e-commerce-website-using-react-firebase-razorpay",
     },
-    {
-      id: 2,
-      src: project2,
-      demoSrc: "https://amank0259.github.io/Netflix-Clone/",
-      codeSrc: "https://github.com/amank0259/Netflix-Clone",
-    },
+   
     {
       id: 3,
       src: project3,
