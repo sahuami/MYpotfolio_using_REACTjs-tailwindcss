@@ -40,6 +40,10 @@ export const metadata: Metadata = {
     ]
   },
   viewport: "initial-scale=1.0, width=device-width"
+
+
+
+
 };
 
 
