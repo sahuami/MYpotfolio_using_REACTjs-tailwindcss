@@ -1,8 +1,8 @@
 // File: C:\Users\sahami\Downloads\ts-portal\ts-portal\src\app\layout.tsx
-import * as entry from '../../../src/app/layout.js'
+import * as entry from '../../../src/layout.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../src/app/layout.js')
+type TEntry = typeof import('../../../src/layout.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
