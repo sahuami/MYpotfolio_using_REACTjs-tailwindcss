@@ -1,8 +1,27 @@
-start this project follow below step :
+## Technovation Solutions Webiste - Next.js
 
-Step 1:
-go to terminal in your code editor and Install module using => npm i
-Step 2:
-go to terminal in your code editor and Run the program using => npm run dev
+Execute to install dependecies
 
-live link : https://amit-potfolio.netlify.app
+```bash
+npm install
+```
+if it's done setup the environment variables in a .env file in the root of the project, the variables samples are in the .env.example file
+
+when it is done, please execute
+```bash
+npm run dev
+```
+Open your browser and type https://localhost:3000
+
+## Technologies
+- Next.js
+
+## Description
+This is a website for our company, Technovation Solutions.
+
+To build the website for production, execute
+```bash
+npm run build
+```
+
+Thank you for your attention!
