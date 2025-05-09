@@ -1,4 +1,4 @@
-## Technovation Solutions Webiste - Next.js
+## welcome to my potfolio - Next.js
 
 Execute to install dependecies
 
@@ -11,17 +11,9 @@ when it is done, please execute
 ```bash
 npm run dev
 ```
-Open your browser and type https://localhost:3000
 
 ## Technologies
 - Next.js
 
-## Description
-This is a website for our company, Technovation Solutions.
-
-To build the website for production, execute
-```bash
-npm run build
-```
 
 Thank you for your attention!
