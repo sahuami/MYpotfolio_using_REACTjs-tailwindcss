@@ -1,8 +1,8 @@
 // File: C:\Users\sahami\Downloads\ts-portal\ts-portal\src\app\(page)\page.tsx
-import * as entry from '../../../../src/(page)/page.jsx'
+import * as entry from '../../../../src/app/(page)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/(page)/page.jsx')
+type TEntry = typeof import('../../../../src/app/(page)/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
